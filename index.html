@@ -14,6 +14,12 @@
 
     <title>Frontend Mentor | Fylo data storage component</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -26,6 +32,42 @@
     </style>
   </head>
   <body>
+    <main>
+      <div class="part1">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div class="icons">
+          <div class="icon_document">
+            <img src="./images/icon-document.svg" alt="" />
+          </div>
+          <div class="icon_folder">
+            <img src="./images/icon-folder.svg" alt="" />
+          </div>
+          <div class="icon_upload">
+            <img src="./images/icon-upload.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="part2">
+        <div class="storage_used">
+          <p>You've used <b>815 GB</b> of your storage</p>
+        </div>
+        <div class="storage_left">
+          <h1>185</h1>
+          <small>GB Left</small>
+        </div>
+        <div class="status_bar">
+          <div class="bar">
+            <div class="bar_progress">
+              <div class="bar-progress_point"></div>
+            </div>
+          </div>
+          <div class="bar_status_in_numbers"><b>0 GB</b><b>1000 GB</b></div>
+        </div>
+      </div>
+    </main>
+    <div class="background_img"></div>
     <!-- You’ve used 815 GB of your storage
 
   185 GB Left
